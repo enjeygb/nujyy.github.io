@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(21, 108, 208, 0.4);
+}
+
+.navbar ul{
+   float: right; 
+   margin-right: 20px ; 
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #d3ab8d;
+    border-radius: 2px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+ body{
+    background-image: url(hobbiesjpg.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+}
+h1{
+    box-shadow:  5px 10px 5px rgb(42, 44, 165);
+}
+#ul2 li{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: 50px right;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+      <ul> 
+          <li><a href="index.html">Main Section</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="communication.html">Communication</a></li>
+      </ul>
+       </div>
+    </div>
+    <h1 style="color: rgb(1, 9, 244);">Welcome to the <i>Hobbies</i> section</h1>
+    <mark style="color: rgb(64, 5, 214);">
+        <ul style="padding: 20px;" id="ul2">
+        <i><li>Baking</li></i>
+        <i><li>Bycycling</li></i>
+        <i><li>Nature identification</li></i>
+        <i><li>Painting</li></i>
+        <i><li>Ice skating</li></i>
+        <i><li>Riad tripping</li></i>
+</ul>
+</mark>
+</body>
+</html>
